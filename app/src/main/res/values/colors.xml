@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ee96c0ea</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgptn">#9e0587</color>
+    <color name="menuptn">#f1f1f5</color>
+    <color name="bgpts">#8b8b7b</color>
+
+    <color name="lingkaran_universitas">#f23f09</color>
+    <color name="lingkaran_sekolahtinggi">#f27108</color>
+    <color name="lingkaran_institut">#fff53d</color>
+    <color name="lingkaran_akademi">#d818ec</color>
+    <color name="lingkaran_share">#4cff2d</color>
+    <color name="lingkaran_about">#14f4fc</color>
+    <color name="lingkaran_ptn">#43b4ff</color>
+    <color name="lingkaran_pts">#f7dffc22</color>
+</resources>

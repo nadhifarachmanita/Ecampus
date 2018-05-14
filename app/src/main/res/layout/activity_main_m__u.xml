@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nadifa.ecampus.MainActivityM_U"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="451dp"
+        android:layout_height="551dp"
+        android:layout_margin="2pt"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="-5dp">
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="167dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="361dp"
+                    android:layout_height="209dp"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="193dp"
+                        android:layout_marginTop="12pt"
+                        android:orientation="horizontal"
+                        android:paddingBottom="9dp">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="278dp"
+                            android:layout_weight="1.37"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+
+                            <LinearLayout
+                                android:layout_width="225dp"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical">
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+
+                                    <TextView
+                                        android:id="@+id/textView4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/btnpts"
+                                        android:text="PTS"
+                                        android:textColor="@color/lingkaran_pts"
+                                        android:textSize="14sp"
+                                        android:textStyle="bold" />
+
+
+                                    <Button
+                                        android:id="@+id/btnpts"
+                                        style="?android:attr/progressBarStyleHorizontal"
+                                        android:layout_width="80dp"
+                                        android:layout_height="75dp"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginStart="15dp"
+                                        android:layout_toEndOf="@+id/textView4"
+                                        android:layout_toRightOf="@+id/textView4"
+                                        android:background="@drawable/lingkaran_pts"
+                                        android:drawableTop="@drawable/ic_pts"
+                                        android:indeterminate="false"
+                                        android:onClick="btn_pts"
+                                        android:padding="16dp"
+                                        android:textStyle="bold" />
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="95dp">
+
+                                    <TextView
+                                        android:id="@+id/ptn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentBottom="true"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_marginLeft="19dp"
+                                        android:layout_marginStart="19dp"
+                                        android:text="PTN"
+                                        android:textColor="@color/lingkaran_ptn"
+                                        android:textSize="14sp"
+                                        android:textStyle="bold" />
+
+
+                                    <Button
+                                        android:id="@+id/btnptn"
+                                        style="?android:attr/progressBarStyleHorizontal"
+                                        android:layout_width="80dp"
+                                        android:layout_height="75dp"
+                                        android:layout_alignLeft="@+id/ptn"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_alignStart="@+id/ptn"
+                                        android:background="@drawable/lingkaran_ptn"
+                                        android:drawableTop="@drawable/ic_ptn"
+                                        android:indeterminate="false"
+                                        android:onClick="btn_ptn"
+                                        android:padding="13dp"
+                                        android:textStyle="bold" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>
